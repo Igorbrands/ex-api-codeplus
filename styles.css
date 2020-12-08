@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background: #ccc;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: 500;
+}
+
+/* Carrinho */
+
+.cart {
+  position: absolute;
+  width: 324px;
+  height: 464px;
+  left: 416px;
+  top: 64px;
+}
+
+.cart li {
+  display: flex;
+  list-style: none;
+  background-color: #F0F0F0;
+  margin: 1px;
+}
+.product-list img {
+  width: 100px;
+}
+
+button {
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  border: 1px #00BC0E;
+  background-color: #00BC0E;
+  cursor: pointer;
+}
